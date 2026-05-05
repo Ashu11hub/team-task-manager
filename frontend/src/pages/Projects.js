@@ -59,7 +59,7 @@ const Projects = () => {
     <div className="min-h-screen bg-gray-50">
       {/* Navbar */}
       <nav className="bg-white shadow-sm px-6 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-indigo-600">TaskFlow</h1>
+        <h1 className="text-2xl font-bold text-indigo-600">Task Verse</h1>
         <div className="flex items-center gap-4">
           <Link to="/" className="text-gray-600 hover:text-indigo-600 font-medium">Dashboard</Link>
           <span className="text-gray-600">Hi, {user?.name}! ({user?.role})</span>
